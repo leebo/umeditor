@@ -1,3 +1,4 @@
 *.keep
 test/dummy/tmp*
 test/dummy/log*
+test/dummy/public/upload*

@@ -6,6 +6,7 @@ module Umeditor
     initializer :assets do |config|
       Rails.application.config.assets.precompile += %w{ umeditor/application.css }
       Rails.application.config.assets.precompile += %w{ umeditor/application.js }
+      Rails.application.config.assets.paths << root.join("app", "assets")
       Rails.application.config.assets.paths << root.join("app", "assets", "images")
     end
     

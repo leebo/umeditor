@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   root 'home#index'
-  mount Umeditor::Engine => "/umeditor"
+  mount Umeditor::Engine => "/"
 end

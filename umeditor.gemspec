@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5"
-
+  s.add_dependency "mini_magick"
+  s.add_dependency "carrierwave"
+  s.add_dependency "carrierwave-imageoptimizer"
   s.add_development_dependency "sqlite3"
 end
