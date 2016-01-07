@@ -10,16 +10,16 @@ Gem::Specification.new do |s|
   s.authors     = ["ysllyfe"]
   s.email       = ["ysllyfe@163.com"]
   s.homepage    = "https://github.com/ysllyfe/umeditor"
-  s.summary     = "Summary of Umeditor."
+  s.summary     = "umeditor for rails application."
   s.description = "Description of Umeditor."
   s.license     = "MIT"
   s.require_paths = ['lib']
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.2.5"
+  s.add_dependency "rails"
   s.add_dependency "mini_magick"
   s.add_dependency "carrierwave"
   s.add_dependency "carrierwave-imageoptimizer"
-  s.add_development_dependency "sqlite3"
+  
 end
