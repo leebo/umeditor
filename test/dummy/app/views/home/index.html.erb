@@ -1,9 +1,7 @@
 <script type="text/javascript" id="editor"></script>
-<%= umeditor_assets_call do |t|%>
+<%= umeditor_assets_call %>
 <script>
-var serverPath = '/server/umeditor/',
-um = UM.getEditor('editor', {
+var um = UM.getEditor('editor', {
           focus: true
       });
 </script>
-<% end %>

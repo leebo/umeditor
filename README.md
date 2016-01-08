@@ -4,6 +4,10 @@ Github: [https://github.com/fex-team/umeditor](https://github.com/fex-team/umedi
 
 **Requirements**
 ---
+
+* Jquery
+
+---
 * mini_magick
 * carrierwave
 * carrierwave-imageoptimizer
