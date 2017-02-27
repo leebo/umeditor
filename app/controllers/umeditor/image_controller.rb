@@ -18,7 +18,7 @@ module Umeditor
                   "type" => params[:upfile].content_type,
                   "state" => "error"}
       end
-      render :text => result.to_json
+      render json: result
     end
   end
 end
